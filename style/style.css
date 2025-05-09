@@ -67,3 +67,34 @@ button{
 button:hover{
     background-color: #f0b920;
 }
+.card{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: #555;
+}
+
+.pokemon{
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 140px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+    margin: 5px;
+    text-align: center;
+}
+
+.pokemon:hover{
+    transform: scale(2);
+}
+
+.pokemon img{
+    width: 100%;
+    border-radius: 6px;
+}
